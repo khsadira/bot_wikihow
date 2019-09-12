@@ -13,7 +13,7 @@ import (
 
 func main() {
 
-	token, err := getenv("TOKEN_HOWTO")
+	token, err := getenv("TOKEN_WIKIHOW_BOT")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -52,7 +52,7 @@ Loop:
 				break Loop
 
 			default:
-				// Take no action
+				//later for more
 			}
 		}
 	}

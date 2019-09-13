@@ -34,7 +34,7 @@ Loop:
 				text := ev.Text
 				matched, query := concat(text)
 				println(ev.Channel)
-				if ev.User != info.User.ID && matched && ev.Channel == "C0G07RYJD" {
+				if ev.User != info.User.ID && matched && ev.Channel == "C8Y2AQR6D" {
 					url, err := get_wiki_url(query)
 					if err != nil {
 						url = "Data not found sozzzzz"
